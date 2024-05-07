@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(247, 238, 247);
+  font-size: 8px;
+
+}
+
+.testimonial-grid {
+  font-size: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  width: min(95%, 70rem);
+}
+
+.testimonial {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.testimonial-1 {
+  background-color: rgb(66, 58, 58);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
+
+.testimonial-2 {
+  background-color: rgb(12, 11, 11);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
+
+.testimonial-3 {
+  background-color:rgb(199, 167, 199);
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
