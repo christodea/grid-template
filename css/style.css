@@ -2,6 +2,7 @@ body {
   background-color: rgb(247, 238, 247);
   font-size: 5px;
   padding: 20px;
+
 }
 
 .testimonial-grid {
@@ -10,6 +11,7 @@ body {
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
   width: min(95%, 70rem);
+  height: 250px;
 }
 
 .testimonial {
@@ -44,8 +46,11 @@ body {
 
 .witness img {
   border-radius: 1000px;
+  height: 90px;
+  width: 90px;
+  
 }
 
-.witness {
+/* .witness {
   grid-template-columns: 1fr;
-}
+} */
