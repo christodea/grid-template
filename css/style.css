@@ -1,56 +1,51 @@
 body {
   background-color: rgb(247, 238, 247);
-  font-size: 5px;
+  font-size: 15px;
   padding: 20px;
-
+  /* align-items: center; */
 }
 
 .testimonial-grid {
-  font-size: 2rem;
+  font-size: 15px;
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  width: min(95%, 70rem);
-  height: 250px;
+  width: min(90%, 50rem);
+  height: 400px;
 }
 
 .testimonial {
-  background-color: blueviolet;
-  color: #fff;
-  padding: 2rem;
+  background-color: rgb(122, 41, 197);
+  color: rgb(227, 227, 20);
+  padding: 1.5rem;
   border-radius: 1rem;
 }
 
 .testimonial-1 {
   background-color: rgb(66, 58, 58);
   color: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
 
 }
 
 .testimonial-2 {
-  background-color: rgb(12, 11, 11);
-  color: #fff;
-  padding: 2rem;
+  background-color: gray;
+  color: rgb(19, 19, 127);
+  padding: 1.5rem;
   border-radius: 1rem;
 
 }
 
 .testimonial-3 {
   background-color:rgb(199, 167, 199);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
 
 }
 
 .witness img {
   border-radius: 1000px;
-  height: 90px;
-  width: 90px;
-  
+  height: 50px;
+  width: 50px;
 }
-
-/* .witness {
-  grid-template-columns: 1fr;
-} */
