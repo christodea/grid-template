@@ -2,7 +2,7 @@ body {
   background-color: rgb(247, 238, 247);
   font-size: 15px;
   padding: 20px;
-  /* align-items: center; */
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
   grid-template-columns: 1fr 1fr;
   width: min(90%, 50rem);
   height: 400px;
-  /* align-items: center; */
+  place-items: center;
 }
 
 .testimonial {
@@ -28,7 +28,6 @@ body {
   color: #fff;
   padding: 1.5rem;
   border-radius: 1rem;
-
 }
 
 .testimonial-2 {
@@ -36,14 +35,12 @@ body {
   color: rgb(19, 19, 127);
   padding: 1.5rem;
   border-radius: 1rem;
-
 }
 
 .testimonial-3 {
-  background-color:rgb(199, 167, 199);
+  background-color: rgb(199, 167, 199);
   padding: 1.5rem;
   border-radius: 1rem;
-
 }
 
 .witness img {
@@ -51,4 +48,3 @@ body {
   height: 50px;
   width: 50px;
 }
-
